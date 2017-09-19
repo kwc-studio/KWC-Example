@@ -1,0 +1,58 @@
+.main{
+    width:100%;
+}
+.header{
+    height:20%;
+    width:100%;
+    /* display: flex; */
+
+}
+.contain{
+    
+}
+.contain_main{
+    height:80%;
+}
+.header_btn{
+    width:inherit;
+    height: 100%;
+    display: flex;
+}
+.btn_logo{
+    flex:3;
+    height: inherit;
+    border:1px solid;
+    text-align: center;
+}
+.btn_else{
+    flex:1;
+    height: 50%;
+    border:1px solid;
+    text-align: center;
+}
+.phone_listbtn{
+    flex:1;
+    height: 50%;
+    border:1px solid;
+    text-align: center;
+    display: none;
+}
+.phone_footer{
+    background-color: pink; 
+    position: absolute;
+    top: 10.5%;
+    left:50%;
+    width:50%;
+    height:10%;
+    display:flex;
+
+}
+.phone_footer_btn{
+    flex:1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;  
+}
