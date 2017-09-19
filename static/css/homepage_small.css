@@ -18,6 +18,10 @@
     width:100%;
     height:100%;
 }
+.contain_main #mainpic2
+{
+    display: none;
+}
 .contain_function{
     height: 10%;
     background-color:lemonchiffon; 
